@@ -1,6 +1,6 @@
-# GitHub and Government
+# GitHub and Government [![Build Status](https://travis-ci.org/github/government.github.com.png?branch=gh-pages)](https://travis-ci.org/github/government.github.com)
 
-![screenshot](https://f.cloud.github.com/assets/282759/1335911/28b3ec66-35c0-11e3-8ee6-66272b9f4186.png)
+![screenshot](images/screenshot.png)
 
 Gather, curate, and feature stories of people using GitHub as part of their open government innovations.
 
@@ -17,21 +17,21 @@ Submit [issues](https://github.com/github/government.github.com/issues/new) and 
 
 ### Under the Hood
 
-This site is made with [Jekyll](http://jekyllrb.com), an open source static site generator. This means the Jekyll program takes the content we want to be on the site and turns them into HTML files ready to be hosted somewhere. Awesomely, GitHub provides free web hosting for repositories, called [GitHub Pages](http://pages.github.com/), and that's how this site is hosted. The content for the site is on a branch named [gh-pages](https://github.com/github/government.github.com/tree/gh-pages).  
+This site is made with [Jekyll](http://jekyllrb.com), an open source static site generator. This means the Jekyll program takes the content we want to be on the site and turns them into HTML files ready to be hosted somewhere. Awesomely, GitHub provides free web hosting for repositories, called [GitHub Pages](http://pages.github.com/), and that's how this site is hosted. The content for the site is on a branch named [gh-pages](https://github.com/github/government.github.com/tree/gh-pages).
 
 ## Contributing
 
 #### Fix/Edit Content
 
-If you see an error or a place where content should be updated or improved, just fork this repsository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new).
+If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new).
 
 #### Add a Story
 
-Have an open governement story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
+Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/gh-pages/docs/submit.md).
 
 #### Add Organization
 
-If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_config.yml` file and add it to the appropate section of the list in the format being used. Commit your change and submit a pull request to us!
+If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_data/organizations.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
 
 ---
 
@@ -45,16 +45,17 @@ You can take all the files of this site and run them just on your computer as if
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
 
- _If you use [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git will install automatically._
+_If you have installed [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git was also installed automatically._
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 
-1. `git clone https://github.com/github/government.github.com.git`
-2. `cd government.github.com`
-3. `script/bootstrap`
-4. `script/server`
-5. `open http://localhost:4000`
-
+```bash
+git clone https://github.com/github/government.github.com.git
+cd government.github.com
+script/bootstrap
+script/server
+open http://localhost:4000
+```
 ----
 
 Don't see what you're looking for? Create an [issue](https://github.com/github/government.github.com/issues/new), we'll do our best to help you out.

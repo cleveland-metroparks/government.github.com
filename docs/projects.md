@@ -9,23 +9,23 @@ permalink: /projects/
 
 GitHub's about connecting with developers. Whether you're an API publishing pro, or just getting started, creating a "feedback" repository can go a long way to connect your organization with the community. Get feedback from current and potential data consumers by creating a specific repository for them to contribute ideas and suggestions for types of data or other information they'd like to see opened. Here's how:
 
-1. Create a [new repository](https://github.com/new)
+1. Create a [new repository](https://github.com/new){: data-proofer-ignore="true"}
   - Choose your organization as the Owner
-	- Name the repository "feedback" or similar
-	- Click the checkbox to automatically create a `README.md` file
+  - Name the repository "feedback" or similar
+  - Click the checkbox to automatically create a `README.md` file
 2. Set up your Readme
-	- Click `README.md` within your newly created repository
-	- Click `Edit`
-	- Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feedback through issues on the repository.
+  - Click `README.md` within your newly created repository
+  - Click `Edit`
+  - Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feedback through issues on the repository.
 
 Sample text for your `README.md`:
 
-```markdown
+~~~markdown
 # City of Gotham Feedback
 
 We've just joined GitHub and want to know what data would be interesting to our development community?
 Leave us comments via issues!
-```
+~~~
 
 ## Open source a Dataset
 
@@ -39,7 +39,7 @@ There are [many open source applications](http://gsa.github.io/federal-open-sour
 
 * **Adopt-a** - This [open source web app](https://github.com/codeforamerica/adopt-a-hydrant) was created for the City of Boston in 2011 by [Code for America](http://www.codeforamerica.org) fellows. It allows residents to "adopt" a hydrant and make sure it's clear of snow in the winter so that emergency crews can locate them when needed. It has since been adopted in [**Chicago**](https://github.com/Chicago/adopt-a-sidewalk) (for sidewalks), **Seattle** (for storm drains), and [**Honolulu**](https://github.com/codeforamerica/adopt-a-siren) (for tsunami sirens).
 
-* **StreetMix** - Another creation of Code for America fellows (2013) this website, [www.streetmix.net](http://www.streetmix.net), allows anyone to create street sections in a way that is not only beautiful but educational, too. No downloading, no installing, no paying - make and save your creations right at the website. Great for internal or public community planning meetings.
+* **Streetmix** - Another creation of Code for America fellows (2013) this website, [www.streetmix.net](http://www.streetmix.net), allows anyone to create street sections in a way that is not only beautiful but educational, too. No downloading, no installing, no paying - make and save your creations right at the website. Great for internal or public community planning meetings.
 
 * **We The People** - [We The People](https://github.com/whitehouse/petitions), the White House's petitions application hosted at [petitions.whitehouse.gov](http://petitions.whitehouse.gov) is a Drupal module to allow citizens to submit and digitally sign petitions.
 
@@ -51,6 +51,6 @@ Post your website's privacy policy, comment moderation policy, or terms of servi
 
 ## Improve an existing project
 
-Does you agency use an existing open source project to conduct its own business? Open an issue on the project's repository with a feature request or a bug you spot. Better yet, fork the project, and submit your improvements. Even if it's one or two lines of code, such examples are great to blog about to showcase your efforts.
+Does your agency use an existing open source project to conduct its own business? Open an issue on the project's repository with a feature request or a bug you spot. Better yet, fork the project, and submit your improvements. Even if it's one or two lines of code, such examples are great to blog about to showcase your efforts.
 
 Don't forget, this site is an open source project, too. Making an needed edit is another great way to get started.
